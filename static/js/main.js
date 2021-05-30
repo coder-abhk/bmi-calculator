@@ -20,7 +20,8 @@ height.addEventListener("input", (e) => {
 
 calculate.addEventListener("click", () => {
   bmi = Math.round(w / (h * h));
-  result_element.style.padding = `${1}rem`;
+  bmi ? result_element.style.padding = `${1}rem` : null;
+  ;
   if (bmi < 18) {
     result_element.innerHTML = `${bmi} BMI <b style="color: #ffa92b;">Underweight</b>`;
   } else if (bmi <= 25) {
