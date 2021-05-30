@@ -6,10 +6,10 @@
   outline: none;
   letter-spacing: 2px;
   box-sizing: border-box;
+  font-family: 'Odibee Sans';
 }
 
 body {
-  font-family: 'Odibee Sans';
   background-color: #fff;
 }
 
