@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Odibee Sans', cursive;
+  font-family: 'Odibee Sans';
   background-color: #fff;
 }
 
@@ -20,7 +20,7 @@ header {
 header h1 {
   color: #777;
   padding: 1.5rem 0;
-  font-family: 'ZCOOL KuaiLe', cursive !important;
+  font-family: 'ZCOOL KuaiLe' !important;
 }
 
 main {
@@ -45,7 +45,7 @@ main p {
 
 input::placeholder {
   color: #999;
-  font-family: 'Odibee Sans', cursive;
+  font-family: 'Odibee Sans';
 }
 
 input {
