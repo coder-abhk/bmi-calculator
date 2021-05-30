@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/css/style.css" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <header>
+      <h1>BMI Calc.</h1>
+    </header>
+
+    <main>
+      <p>Calculate Your Body Mass Index</p>
+      <form class="myForm">
+        <div class="wrap">
+          <input id="weight" type="number"  placeholder="Input weight in Kg" />
+          <input id="height" type="number" placeholder="Input height in metres" />
+        </div>
+        <div class="center-button">
+          <input class="calculate_button" type="button" value="Calculate" />
+        </div>
+
+        <div class="result_wrapper">
+          <h3 class="show_result"></h3>
+        </div>
+      </form>
+    </main>
+  </body>
+  <script src="./static/js/main.js"></script>
+</html>
