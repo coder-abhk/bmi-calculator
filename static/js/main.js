@@ -3,23 +3,23 @@ const calculate = document.querySelector(".calculate_button");
 // show result element
 const result_element = document.querySelector(".show_result");
 // weight
-let weight = document.querySelector("#weight");
+let weight_input_element = document.querySelector("#weight");
 //height
-let height = document.querySelector("#height");
+let height_input_element = document.querySelector("#height");
 
-let w;
-let h;
+let weight;
+let height;
 
-weight.addEventListener("input", (e) => {
-  w = parseFloat(e.target.value);
+weight_input_element.addEventListener("input", (e) => {
+  weight = parseFloat(e.target.value);
 });
 
-height.addEventListener("input", (e) => {
-  h = parseFloat(e.target.value);
+height_input_element.addEventListener("input", (e) => {
+  height = parseFloat(e.target.value);
 });
 
-calculate.addEventListener("click", () => {
-  bmi = Math.round(w / (h * h));
+const bmi_calculate = () => {
+  bmi = Math.round(weight / (height * height));
   bmi ? result_element.style.padding = `${1}rem` : null;
   
   if (bmi < 18) {
@@ -29,4 +29,6 @@ calculate.addEventListener("click", () => {
   } else if (bmi < 40 || bmi > 40) {
     result_element.innerHTML = `${bmi} BMI <b style="color: #fb6b60;">Overweight</b>`;
   }
-});
+}
+
+calculate.addEventListener("click", bmi_calculate, false);

@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 * {
   margin: 0;
   padding: 0;
   outline: none;
+  letter-spacing: 2px;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Karla";
+  font-family: 'Odibee Sans', cursive;
   background-color: #fff;
 }
 
@@ -17,19 +20,20 @@ header {
 header h1 {
   color: #777;
   padding: 1.5rem 0;
+  font-family: 'ZCOOL KuaiLe', cursive !important;
 }
 
 main {
   width: 75%;
   margin: 2.5rem auto;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #fff;
-  box-shadow: 1px 1px 15px rgba(0,0,0,0.06);
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.08);
 }
 
 main p {
@@ -41,6 +45,7 @@ main p {
 
 input::placeholder {
   color: #999;
+  font-family: 'Odibee Sans', cursive;
 }
 
 input {
@@ -81,7 +86,7 @@ input:focus {
 
 .center-button input:hover {
   color: #ffffff;
-  background-color: #0d090f;
+  background-color: #777;
 }
 
 .result_wrapper{
