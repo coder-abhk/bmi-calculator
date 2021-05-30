@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 header {
@@ -19,12 +19,12 @@ header {
 
 header h1 {
   color: #777;
-  padding: 1.5rem 0;
+  padding: 2rem 0;
   font-family: 'ZCOOL KuaiLe' !important;
 }
 
 main {
-  width: 75%;
+  width: 60%;
   margin: 2.5rem auto;
   padding: 3rem;
   border-radius: 10px;
