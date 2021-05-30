@@ -89,9 +89,14 @@ input:focus {
 }
 
 .show_result{
-    padding: 1rem;
     border-radius: 6px;
     background-color: #ffffff;
 }
 
+
+@media(max-width: 571px){
+main{
+    width: 95%;
+}
+}
 
